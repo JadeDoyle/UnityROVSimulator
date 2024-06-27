@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RenderPipelineSettings:
     supportShadowMask: 0
-    supportSSR: 0
+    supportSSR: 1
     supportSSRTransparent: 0
     supportSSAO: 1
     supportSSGI: 1
@@ -115,7 +115,7 @@ MonoBehaviour:
       maxDecalsOnScreen: 512
       maxLightsPerClusterCell: 16
       maxLocalVolumetricFogSize: 32
-      maxLocalVolumetricFogOnScreen: 64
+      maxLocalVolumetricFogOnScreen: 512
     hdShadowInitParams:
       maxShadowRequests: 128
       directionalShadowsDepthBits: 16
@@ -148,7 +148,7 @@ MonoBehaviour:
       maxDirectionalShadowMapResolution: 4096
       maxPunctualShadowMapResolution: 4096
       maxAreaShadowMapResolution: 4096
-      supportScreenSpaceShadows: 0
+      supportScreenSpaceShadows: 1
       maxScreenSpaceShadowSlots: 4
       screenSpaceShadowBufferFormat: 48
     decalSettings:

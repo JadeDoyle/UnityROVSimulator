@@ -3,7 +3,12 @@ guid: f5d1332a981be7648bda6a63679748de
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UCV_Yellow
+    second: {fileID: 2100000, guid: e20780761edb7814ab624d79bbaef7d9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
