@@ -3,7 +3,27 @@ guid: 465db59d0496dc2418821809c0794bad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thruster_Black
+    second: {fileID: 2100000, guid: ae6a960feed8d9c409b4bfc5904ab7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thruster_Blue
+    second: {fileID: 2100000, guid: ed0977d6e73a1c3409a50ad4ab827b64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thruster_Grey_Light
+    second: {fileID: 2100000, guid: b922c6265159e9b4abffa4b36199ad1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thruster_Yellow
+    second: {fileID: 2100000, guid: e20780761edb7814ab624d79bbaef7d9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

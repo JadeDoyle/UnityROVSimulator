@@ -28,7 +28,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Poles
-    second: {fileID: 2100000, guid: 5215496d17ac6d2439b97e4f1ff8b908, type: 2}
+    second: {fileID: 2100000, guid: b922c6265159e9b4abffa4b36199ad1f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -43,7 +43,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shiny
-    second: {fileID: 2100000, guid: 91ec1720f8803a3499f0bfef051f62a1, type: 2}
+    second: {fileID: 2100000, guid: aacb00c30c8fa814f9fa717c1c064dbc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
