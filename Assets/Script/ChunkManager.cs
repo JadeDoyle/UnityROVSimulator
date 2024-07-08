@@ -159,9 +159,9 @@ public class ChunkManager : MonoBehaviour
         return potentialBorders;
     }
 
-    private void OnGUI()
-    {
-        GUI.Label(new Rect(10, 130, 300, 20), $"Current pos: {target.position}");
-        GUI.Label(new Rect(10, 150, 300, 20), $"Current Chunk: {GetTargetChunk()}");
-    }
+    // private void OnGUI()
+    // {
+    //     GUI.Label(new Rect(10, 130, 300, 20), $"Current pos: {target.position}");
+    //     GUI.Label(new Rect(10, 150, 300, 20), $"Current Chunk: {GetTargetChunk()}");
+    // }
 }
