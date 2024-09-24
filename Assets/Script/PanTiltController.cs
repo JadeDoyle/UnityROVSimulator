@@ -19,7 +19,8 @@ public class PanTiltController : MonoBehaviour
 
     [Header("Control Settings")]
     public KeyCode controlKey = KeyCode.Mouse0;
-    public KeyCode resetKey = KeyCode.Mouse2;
+    public KeyCode resetKey1 = KeyCode.Mouse2;
+    public KeyCode resetKey2 = KeyCode.R;
     public float resetSpeed = 2f;
     public float smoothSpeed = 5f; // Speed for smooth transition
 
@@ -39,7 +40,7 @@ public class PanTiltController : MonoBehaviour
             targetTiltAngle = Mathf.Clamp(targetTiltAngle + tiltInput, minTiltAngle, maxTiltAngle);
         }
 
-        if (Input.GetKey(resetKey))
+        if (Input.GetKey(resetKey1) || Input.GetKey(resetKey2))
         {
             targetPanAngle = 0f;
             targetTiltAngle = 0f;
